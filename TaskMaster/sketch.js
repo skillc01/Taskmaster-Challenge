@@ -1,36 +1,37 @@
 function setup() {
-    createCanvas(400, 400);
+    createCanvas(1200, 1200);
   }
   
   function draw() {
-    background(220);
-    rect(115,130,180,150);
+    background(255);
+    //rect(115,130,180,150);
     let c = mouseX;
     let y = mouseY;
     
     strokeWeight(8);
-    fill(220,20,60); //crimson
-    circle(175,100, 50);
+    fill(220,20,60); //red
+    circle(395,320, 50+(y*2));
     strokeWeight(0);
     fill(255,255,255); //white
-    circle(195,120, 40);
+    circle(415,340, 40+(y*2.2));
     strokeWeight(8);
-    fill(220,20,60); //crimson
-    circle(235,100, 50);
+    fill(220,20,60); //red
+    circle(455,320, 50+(y*2));
     strokeWeight(0);
     fill(255,255,255); //white
-    circle(215,120, 40);
-    strokeWeight(10);
-    fill(220,20,60); //crimson
-    rect(185,100, 40,30);
+    circle(435,340, 40+(y*2.2));
+    strokeWeight(3-(y/2));
+    fill(220+y,20+y,60+(y*2.2)); //crimson
+    rect(405,320, 40,30); //bow
     stroke('black'); // Change the color
     strokeWeight(10);
     fill(c,y,113);
-    fill(1+c*2,10+y*2,250); //yellow
-    rect(115,130,180,150);
-    fill(220,20,60); //crimson
-    rect(115,190,180,30);
-    rect(190,130,30,150);
+    fill(20+y,120+y,60+(y*2)); //wrapping colour
+    rect(335,350,180,150);
+    strokeWeight(0);
+    fill(220+y,20+y,60+(y*2)); //crimson
+    rect(335,410,180,30);
+    rect(410,350,30,150);
     
   }
   

@@ -14,9 +14,6 @@ Use Safari, firefox or chrome.
 
 * [p5js](https://p5js.org) 
 
-## Screenshots 
-
-
 ## Authors
 
 * **Chloe Skillman** - [Github](https://github.com/skillc01)

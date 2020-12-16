@@ -1,3 +1,13 @@
+.bg {
+  /* The image used */
+  background-image: url("TM.png");
+}  
+
+div.myDiv {
+  padding: 25px;
+  border-width: 0px;
+}
+
 html, body {
     margin: 140;
     padding: 0;
@@ -5,4 +15,6 @@ html, body {
   canvas {
     display: block;
   }
+
+  
   
